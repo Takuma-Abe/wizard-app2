@@ -39,7 +39,7 @@ user table
 * user model association
 - has_one :address, dependent: :destroy
 
-* address table
+address table
 |column name|type|option|
 |-----------|----|------|
 |prefecture|integer|null :false|
