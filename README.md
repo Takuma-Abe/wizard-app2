@@ -25,8 +25,9 @@ Things you may want to cover:
 
 # DB setting
 
-* user table
+user table
 |column name|type|option|
+|-----------|----|------|
 |nickname|string|null: false|
 |family_name|string|null :false|
 |first_name|string|null :false|
@@ -40,6 +41,7 @@ Things you may want to cover:
 
 * address table
 |column name|type|option|
+|-----------|----|------|
 |prefecture|integer|null :false|
 |postal_code|string|null :false|
 |city|string|null :false|
